@@ -16,7 +16,6 @@ public class Answer {
     else
         Console.WriteLine("Первое число `" + firstNumber + "` больше чем второе число `" + secondNumber + "`");
     }
-    }
 
 
   // Не удаляйте и не меняйте метод Main! 
@@ -28,8 +27,8 @@ public class Answer {
             secondNumber = int.Parse(args[1]);
         } else {
            // Здесь вы можете поменять значения для отправки кода на Выполнение
-            firstNumber = 10;
-            secondNumber = 5;
+            firstNumber = 5;
+            secondNumber = 6;
         }
 
         // Не удаляйте строки ниже

@@ -7,16 +7,18 @@ public class Answer
 {
   static int FindMax(int a, int b, int c)
     {
-      int max = a;
-        if (max < b)
-        {
-            max = b;
-        }
-        if (max < c)
-        {
-            max = c;
-        }
-        return max;
+      // Введите свое решение ниже
+        int result = 0;
+        if (a > b )
+            if (a > c){
+            result = a;}
+        if (b > a )
+            if (b > c){
+            result = b;}
+        if (c > a)
+            if (c > b){
+                result = c;}
+        return result;
     }   
     
     
