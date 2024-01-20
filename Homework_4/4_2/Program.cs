@@ -45,6 +45,6 @@ internal class Program
 
         int[] mass = MassNums(num, start, stop);
         Print(mass);
-        Console.WriteLine($"Количество чётный чисел в массиве: " + CountEvenItems(mass));
+        Console.WriteLine($"Количество чётных чисел в массиве: " + CountEvenItems(mass));
     }
 }
